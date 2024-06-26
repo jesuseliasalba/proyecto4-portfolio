@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+:root {
+  /* COLORS */
+  --jea-color-primary: #1c3fa7;
+  --jea-color-secondary: #334d9c;
+  --jea-color-tertiary: #85a2fc;
+  --jea-color-light: #586a9b;
+  --jea-color-dark: #2d395e;
+  --jea-color-white: white;
+  --jea-color-black: black;
+
+  /* SPACINGS */
+
+  /* RADIUS */
+  --jea-radius-primary: 30px;
+  --jea-radius-secundary: 15px;
+
+  /* PADDING */
+  --jea-padding-s: 10px;
+  --jea-padding-m: 20px;
+  --jea-padding-l: 40px;
+  --jea-padding-xl: 50px;
+
+  /* MARGIN */
+  --jea-margin-s: 10px;
+  --jea-margin-m: 20px;
+  --jea-margin-l: 30px;
+  --jea-margin-xl: 40px;
+
+  /* GAP */
+  --jea-gap-s: 5px;
+  --jea-gap-m: 10px;
+  --jea-gap-l: 15px;
+  --jea-gap-xl: 20px;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: var(--jea-gap-m);
+}
+
+h3 {
+  font-size: 50px;
+  padding-bottom: var(--jea-padding-m);
+  font-weight: 700;
+  color: var(--jea-color-dark);
+}
+
+@media (max-width: 880px) {
+  h3 {
+    font-weight: 700;
+  }
+}

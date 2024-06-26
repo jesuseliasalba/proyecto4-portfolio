@@ -1,0 +1,24 @@
+#About\20me {
+  min-height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 60%;
+  padding-left: 10%;
+}
+
+#About\20me > p {
+  max-width: 600px;
+}
+
+@media (max-width: 880px) {
+  #About\20me {
+    align-items: center;
+    width: 100%;
+    padding: var(--jea-padding-xl);
+    text-align: center;
+  }
+  #About\20me > p {
+    font-size: 0.75rem;
+  }
+}

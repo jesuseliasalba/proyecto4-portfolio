@@ -1,0 +1,31 @@
+#contact {
+  flex-direction: column;
+  background-color: var(--jea-color-light);
+  width: 90%;
+  margin: 5%;
+  border-radius: var(--jea-radius-primary);
+  padding: var(--jea-padding-m);
+  text-align: center;
+}
+
+#contact > h3 {
+  color: var(--jea-color-white);
+}
+
+#contact > a {
+  height: 150px;
+}
+
+#contact > a > img {
+  height: 100%;
+}
+
+@media (max-width: 880px) {
+  #contact > h3 {
+    font-size: 40px;
+  }
+
+  #contact > p {
+    font-size: 0.7rem;
+  }
+}

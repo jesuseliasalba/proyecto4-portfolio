@@ -1,0 +1,57 @@
+#Experience\/Studies {
+  background-color: var(--jea-color-light);
+  color: var(--jea-color-white);
+  padding: var(--jea-padding-xl);
+  flex-direction: column;
+}
+
+#Experience\/Studies h3 {
+  color: var(--jea-color-tertiary);
+  padding: var(--jea-padding-s);
+  cursor: pointer;
+}
+
+#Experience\/Studies > *:not(:first-child) h4 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  max-width: 750px;
+}
+
+#Experience\/Studies > *:not(:first-child) ul {
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+#Experience\/Studies > *:not(:first-child) li {
+  font-size: 0.7rem;
+  padding-top: 5px;
+}
+
+.seleccionado {
+  text-decoration: underline;
+  color: var(--jea-color-white) !important;
+}
+
+#experience > ul {
+  list-style: circle;
+}
+
+#studies > ul {
+  list-style: circle;
+}
+
+.dissapear {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  #Experience\/Studies h3 {
+    font-size: 1.2rem;
+  }
+  #Experience\/Studies > *:not(:first-child) h4 {
+    font-size: 0.7rem;
+  }
+  #Experience\/Studies > *:not(:first-child) li {
+    font-size: 0.6rem;
+  }
+}

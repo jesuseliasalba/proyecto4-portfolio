@@ -1,0 +1,9 @@
+#Projects {
+  flex-direction: column;
+  padding: var(--jea-padding-xl);
+}
+
+#Projects > p {
+  text-align: center;
+  font-size: 0.9rem;
+}

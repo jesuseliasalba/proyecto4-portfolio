@@ -1,0 +1,55 @@
+#ProjectCards {
+  max-width: 95%;
+  flex-wrap: wrap;
+  gap: var(--jea-gap-xl);
+  margin-top: var(--jea-margin-xl);
+}
+
+#ProjectCards > *.cards {
+  flex-direction: column;
+  height: 500px;
+  width: 300px;
+  padding: var(--jea-padding-m);
+  border-radius: var(--jea-radius-primary);
+  justify-content: start;
+}
+
+#ProjectCards > *.cards:nth-child(even) {
+  background-color: var(--jea-color-tertiary);
+}
+
+#ProjectCards > *.cards:nth-child(odd) {
+  background-color: #99b0f6;
+}
+
+.cards > div {
+  height: 50%;
+}
+
+.cards > div > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--jea-radius-primary);
+  border: 3px solid var(--jea-color-dark);
+}
+
+.cards > h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cards > p {
+  font-size: 0.65rem;
+  height: 150px;
+}
+
+.cards > a {
+  width: 90%;
+  padding: var(--jea-padding-s);
+  text-align: center;
+  border-radius: var(--jea-radius-secundary);
+  background-color: var(--jea-color-dark);
+  color: var(--jea-color-white);
+  font-weight: 600;
+}

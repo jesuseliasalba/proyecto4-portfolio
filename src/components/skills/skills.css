@@ -1,0 +1,22 @@
+#Skills {
+  min-height: 300px;
+  flex-direction: column;
+  padding: var(--jea-padding-xl);
+}
+
+#divSkills {
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+#divSkills > img {
+  width: 100px;
+  object-fit: fill;
+}
+
+@media (max-width: 880px) {
+  #divSkills > img {
+    width: 60px;
+    object-fit: fill;
+  }
+}
