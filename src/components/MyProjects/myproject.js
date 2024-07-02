@@ -3,6 +3,12 @@ import "./myproject.css";
 
 const ArrayProjects = [
     {
+        Title: "Games Hub",
+        Content: "asjdjasdfjasdfjd jdfhasdfhasj fjs fhasjh fasjdf sdfjhasjdfh sjdfh asjdf",
+        Image: "./Projects/GamesHub.png",
+        Url: "https://jea-gamehub.netlify.app/"
+    },
+    {
         Title: "Pinterest",
         Content: "For this project I needed to work with an API to be able to search for photos according to the user's wishes",
         Image: "./Projects/Pinterest.png",
