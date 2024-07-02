@@ -4,7 +4,7 @@ import "./myproject.css";
 const ArrayProjects = [
     {
         Title: "Games Hub",
-        Content: "asjdjasdfjasdfjd jdfhasdfhasj fjs fhasjh fasjdf sdfjhasjdfh sjdfh asjdf",
+        Content: "In this project I had to create a website, in which I implemented three different games, I hope you enjoy them!",
         Image: "./Projects/GamesHub.png",
         Url: "https://jea-gamehub.netlify.app/"
     },
